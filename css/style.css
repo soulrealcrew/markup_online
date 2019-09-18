@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 42px;
+  text-shadow: 3px 3px 1px black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-item {
+  height: 100vh;
+  display: flex;
+  flex-basis: 25%;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+}
+.container-item:hover {
+  flex-basis: 65%;
+}
+.container-item__1s {
+  background: url(https://avatars.mds.yandex.net/get-pdb/1211668/7bd06871-a7d3-4f42-a6ed-957025522fe0/s1200?webp=false) no-repeat center center;
+  background-size: cover;
+}
+.container-item__2s {
+  background: url(https://static.tildacdn.com/tild3062-3565-4535-b136-303164383763/_.jpg) no-repeat center center;
+  background-size: cover;
+}
+.container-item__3s {
+  background: url(https://aristravels.com/wp-content/uploads/2017/05/iStock-534799507.jpg) no-repeat center center;
+  background-size: cover;
+}
+.container-item__4s {
+  background: url(https://look.com.ua/pic/201210/1920x1200/look.com.ua-56637.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+@media (max-width: 700px) {
+  .container {
+    flex-flow: column nowrap;
+    height: 100vh;
+    font-size: 36px;
+    align-items: stretch;
+  }
+}

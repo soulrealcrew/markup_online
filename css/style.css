@@ -24,19 +24,19 @@
   flex-basis: 65%;
 }
 .container-item__1s {
-  background: url(https://avatars.mds.yandex.net/get-pdb/1211668/7bd06871-a7d3-4f42-a6ed-957025522fe0/s1200?webp=false) no-repeat center center;
+  background: url(/img/pic-1.jpg) no-repeat center center;
   background-size: cover;
 }
 .container-item__2s {
-  background: url(https://static.tildacdn.com/tild3062-3565-4535-b136-303164383763/_.jpg) no-repeat center center;
+  background: url(/img/pic-2.jpg) no-repeat center center;
   background-size: cover;
 }
 .container-item__3s {
-  background: url(https://aristravels.com/wp-content/uploads/2017/05/iStock-534799507.jpg) no-repeat center center;
+  background: url(/img/pic-3.jpg) no-repeat center center;
   background-size: cover;
 }
 .container-item__4s {
-  background: url(https://look.com.ua/pic/201210/1920x1200/look.com.ua-56637.jpg) no-repeat center center;
+  background: url(/img/pic-4.jpg) no-repeat center center;
   background-size: cover;
 }
 
